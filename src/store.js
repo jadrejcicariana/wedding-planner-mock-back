@@ -1,14 +1,27 @@
 let data = {
     wedding_details: {
-        data: {
+        data: [
+            {
+                id: 1,
+                mr_name: "John Johnson",
+                mrs_name: "Jane Janette",
+                date: "10/06/2024",
+                time: "14:00",
+                location: "St. Joseph Church, Washington DC",
+            },
+        ]    
+   },
+   wedding_details_one: {
+    data: {
             id: 1,
             mr_name: "John Johnson",
             mrs_name: "Jane Janette",
             date: "10/06/2024",
             time: "14:00",
             location: "St. Joseph Church, Washington DC",
-        },    
-   },
+        },
+        
+    },
    expenses: {
         data: [
             {
