@@ -26,11 +26,21 @@ app.get("/expenses/:user_id", (req, res) => {
     res.json(data.expenses);
 });
 
-app.post("/expenses", (req, res) => {
+//add new expense
+app.post("/expenses/:user_id", (req, res) => {
     res.statusCode = 201;
-    res.setHeader("Location", "/expenses/123");
+    res.setHeader("Location", "/expenses/123/1");
     res.send();
 });
+
+//edit expense
+app.put("/expenses/:user_id/:id", (req, res) => {
+    
+    res.statusCode = 201;
+    res.setHeader("Location", "/expenses/123/1");
+    res.send();
+});
+
 
 //guests
 app.get("/guests/:user_id", (req, res) => {
