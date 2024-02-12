@@ -3,6 +3,7 @@ let data = {
         data: [
             {
                 id: 1,
+                user_id: 123,
                 mr_name: "John Johnson",
                 mrs_name: "Jane Janette",
                 date: "10/06/2024",
@@ -11,9 +12,11 @@ let data = {
             },
         ]    
    },
+
    wedding_details_one: {
     data: {
             id: 1,
+            user_id: 123,
             mr_name: "John Johnson",
             mrs_name: "Jane Janette",
             date: "10/06/2024",
@@ -22,24 +25,47 @@ let data = {
         },
         
     },
+
    expenses: {
         data: [
             {
                 id: 1,
+                user_id: 123,
                 title: "Wedding dress",
                 price: 623.24,
                 is_paid: true,
             },
         ],
    },
+
+   expenses_one: {
+    data: {
+            id: 1,
+            user_id: 123,
+            title: "Wedding dress",
+            price: 623.24,
+            is_paid: true,
+        },
+   },
+
    guests: {
         data: [
             {
                 id: 1,
+                user_id: 123,
                 name: "Mark Markus",
                 is_confirmed: true,
             },
         ],
+   },
+
+   guests_one: {
+    data: {
+            id: 1,
+            user_id: 123,
+            name: "Mark Markus",
+            is_confirmed: true,
+        },
    },
 };
 
